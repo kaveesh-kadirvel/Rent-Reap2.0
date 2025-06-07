@@ -1,0 +1,100 @@
+* {
+padding: 0;
+border:border-box;
+margin: 0;
+}
+.navbar{
+    background-color: #003606;
+    height: 63px;
+    color: #d9ad54;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 60px;
+    height: 60px;
+
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid #d9ad54;
+}
+
+.logo {
+    background-image: url(rentreap\ logo\ without\ text.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    
+}
+.rentreap {
+    padding: 12px;
+}
+
+.about-us {
+    margin-left: 60rem;
+    padding: 15px;
+}
+
+.contact-us {
+    margin-left: 3rem;
+    padding: 15px;
+}
+/*home page*/
+.page1{
+    background-color: #003606;
+    height: 800px;
+    width: 100%;
+    background-image: url(background\ image\ 3.png);
+    background-size: cover;
+}
+
+.hero-section {
+    color: rgb(234, 235, 221);
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 8rem;
+    text-shadow: 25px 10px 100px black;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+button {
+    background-color: #0b4312;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    border-radius: 25px;
+    align-items:center;
+    text-align: center;
+    margin-left: 34rem;
+    margin-top: 10rem;
+    box-shadow: none;
+}
+/*about us, how it works*/
+.page2{
+    background-color: #ffffff;
+    height: 1600px;
+    width: 100%;
+    background: hsla(70, 84%, 17%, 1);
+
+background: linear-gradient(270deg, hsla(70, 84%, 17%, 1) 0%, hsla(40, 68%, 61%, 1) 100%);
+
+background: -moz-linear-gradient(270deg, hsla(70, 84%, 17%, 1) 0%, hsla(40, 68%, 61%, 1) 100%);
+
+background: -webkit-linear-gradient(270deg, hsla(70, 84%, 17%, 1) 0%, hsla(40, 68%, 61%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#455107", endColorstr="#DFB158", GradientType=1 );
+    background-size: cover;
+}
+/*contact us*/
